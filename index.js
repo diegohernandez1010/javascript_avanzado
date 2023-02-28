@@ -25,5 +25,11 @@
 //   console.log((awaitchalk()).gray(">",...comannds));
 // }
 
+// const chalk = require ('chalk');
+// console.log(chalk.blue('hello'));
+
+
 const chalk = require ('chalk');
-console.log(chalk.blue('hello'));
+console.log(chalk.blue(1));
+setTimeout( () => console.log(chalk.blue(2), 0 ));
+console.log(chalk.blue(3));
